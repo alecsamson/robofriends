@@ -2,7 +2,7 @@ import React from 'react';
 //we want to keep the search box at the top of the page even when scrolling through the generated list
 const Scroll = (props) => {
     return (
-        <div style={ {overflowY: 'scroll', border: '5px solid black', height: '1000px'} }>
+        <div style={ {height: 'auto'} }>
             {props.children}
         </div>
     );
